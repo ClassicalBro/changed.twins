@@ -1,9 +1,10 @@
-{
   "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
-  "version": "0.0.0",
-  "owmlVersion": "2.1.0",
-  "dependencies": [ "xen.NewHorizons" ]
+  "author": "Classic (idea from Ink)",
+  "name": "Reversed Twins",
+  "uniqueName": "Classic.",
+  "version": "0.1.0",
+  "owmlVersion": "2.3.3",
+  "dependencies": [
+    "xen.NewHorizons"
+  ]
 }
