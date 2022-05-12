@@ -1,0 +1,27 @@
+{
+    "name" : "Out",
+    "Base" : 
+    {
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true,
+	"hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 600,
+        "inclination" : 0,
+        "primaryBody" : "Ink",
+        "isMoon" : true,
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 10,
+        "trackingOrbitLine" : true,
+        "showOrbitLine" : true
+    },
+    "Singularity" :
+    {
+        "Size" : 40,
+        "Type" : "WhiteHole",
+        "PairedSingularity" : "In"
+    }
+}

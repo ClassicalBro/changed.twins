@@ -1,0 +1,15 @@
+<AstroObjectEntry>
+    <ID>INK</ID>
+
+    <Entry>
+        <ID>INK</ID>
+        <Curiosity>INK</Curiosity>
+        <Name>Ink</Name>
+        <IsCuriosity/>
+
+        <ExploreFact>
+            <ID>Ink-found</ID> 
+            <Text>HI FRIEn IM iNK!11!1!</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

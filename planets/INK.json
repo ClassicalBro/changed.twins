@@ -1,0 +1,94 @@
+{
+    "name" : "Ink",
+    "Base" : 
+    {
+        "surfaceSize" : 300,
+        "surfaceGravity" : 10,
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true,
+	"hasAmbientLight" : true
+    },
+    "canShowOnTitle" : false,
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 360000,
+        "inclination" : 0,
+        "primaryBody" : "Sun",
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 10,
+        "trackingOrbitLine" : true,
+        "showOrbitLine" : true
+    },
+    "HeightMap" :
+    {
+	    "textureMap" : "planets/Assets/INK-c.png",
+	    "minHeight" : 200,
+            "maxHeight" : 200
+    },
+    "Props" :
+    {
+                "reveal" : 
+                [
+                     {"radius":500,"reveals":["Ink-found"],"revealOn":"enter"}
+                ],
+                "details" :
+		[
+                        {"path" : "TimberHearth_Body/Sector_TH/Volumes_TH/RulesetVolumes_TH",
+                                "position" : {"x": 0,"y": 0,"z": 0},
+ 	                        "rotation" : {"x":0, "y":0, "z":0},
+	                        "scale":1.0
+                        },
+			{ 
+				"path" : "GiantsDeep_Body/Sector_GD/Clouds_GD/LightningGenerator_GD", 
+				"position" : {"x": 0, "y": 0,"z": 0},  
+				"rotation" : {"x": 90, "y": 0,"z": 0},
+	                        "scale":0.4
+			}
+                ]
+     	},
+        "ShipLog" : {
+         "xmlFile": "planets/Assets/Ink.xml",
+	 "spriteFolder": "planets/Assets",
+         "mapMode" : {
+		"revealedSprite": "planets/Assets/INK_map.png",
+		"scale": 1,
+		"manualPosition": {
+			"x": 2000,
+			"y": 0
+		},
+		"manualNavigationPosition": {
+			"x": 8,
+			"y": 1
+            },
+	"curiosities":
+            [
+	  {
+	     "id": "INK",
+	"color": {
+	"r": 4,
+	"g": 5,
+	"b": 4,
+	"a": 255
+	  },
+	     "highlightColor":
+          {
+	"r": 145,
+	"g": 155,
+	"b": 145,
+	"a": 255
+	  }
+	}
+	]
+           },
+	"entryPositions": [
+	{
+			"id": "Ink-found",
+			"position": {
+				"x": 100,
+				"y": 1
+				}
+			}
+		]
+    }
+}

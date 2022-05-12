@@ -1,0 +1,22 @@
+{
+	"name" : "Ember Twin",
+	"Sand" : 
+	{
+		"size": 140,
+		"curve" :[{"time": 1, "value": 0.35}, {"time": 11.5, "value": 1}, {"time": 12, "value": 1}, {"time": 21, "value": 0.35}]
+	},
+	"childrenToDestroy": ["SandSphere_Rising"],
+	"Funnel" :
+	{
+		"target" : "Ash Twin",
+		"type" : "Sand",
+		"curve" :[
+			{"time": 1, "value": 0},
+			{"time": 11.5, "value": 0},
+			{"time": 13, "value": 0},
+			{"time": 13.5, "value": 1},
+			{"time": 21.5, "value": 1},
+			{"time": 22, "value": 0}
+		         ]
+	}
+}

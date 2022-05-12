@@ -1,0 +1,26 @@
+{
+    "name" : "In",
+    "Base" : 
+    {
+        "hasMapMarker" : true,
+        "hasReferenceFrame" : true,
+	"hasAmbientLight" : true
+    },
+    "Orbit" : 
+    {
+        "semiMajorAxis" : 36000,
+        "inclination" : 0,
+        "primaryBody" : "Sun",
+        "longitudeOfAscendingNode" : 0,
+        "eccentricity" : 0,
+        "argumentOfPeriapsis": 10,
+        "trackingOrbitLine" : true,
+        "showOrbitLine" : true
+    },
+    "Singularity" :
+    {
+        "Size" : 40,
+        "Type" : "BlackHole",
+        "PairedSingularity" : "Out"
+    }
+}
