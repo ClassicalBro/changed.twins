@@ -1,8 +1,8 @@
 {
 "filename": "NewHorizonsConfig.dll",
   "author": "Classic (idea from Ink)",
-  "name": "Reversed Twins",
-  "uniqueName": "Classic.ReversedTwins",
+  "name": "Changed Twins",
+  "uniqueName": "Classic.ChangedTwins",
   "version": "0.1.0",
   "owmlVersion": "2.1.0",
   "dependencies": ["xen.NewHorizons"]
