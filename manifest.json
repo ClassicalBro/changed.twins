@@ -4,6 +4,6 @@
   "name": "Reversed Twins",
   "uniqueName": "Classic.ReversedTwins",
   "version": "0.1.0",
-  "owmlVersion": "2.3.3",
+  "owmlVersion": "2.1.0",
   "dependencies": ["xen.NewHorizons"]
 }
