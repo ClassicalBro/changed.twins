@@ -1,10 +1,10 @@
-
+{
 "filename": "NewHorizonsConfig.dll",
   "author": "Classic (idea from Ink)",
   "name": "Reversed Twins",
-  "uniqueName": "Classic.",
+  "uniqueName": "SussyMcSusFace",
   "version": "0.1.0",
   "owmlVersion": "2.3.3",
-  "dependencies": [
-    "xen.NewHorizons"
+  "dependencies": ["xen.NewHorizons"]
   ]
+}
